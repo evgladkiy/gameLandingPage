@@ -503,8 +503,14 @@ html.popup-opened {
   vertical-align: top;
   font-size: 20px;
   display: inline-block;
-  width: 33%;
-  padding: 0 20px;
+  width: 100%;
+  padding: 20px 20px;
+}
+@media screen and (min-width: 639px) {
+  .about .info-container .info {
+    width: 33%;
+    padding: 0 20px;
+  }
 }
 .about .info-container .logo {
   margin: 0 auto;
