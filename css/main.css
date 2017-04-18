@@ -692,3 +692,16 @@ html.popup-opened {
 #button-demo {
   margin-top: 40px;
 }
+.main-footer a {
+  padding-left: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+    -webkit-transition: all 0.25s ease 0ms;
+  -moz-transition: all 0.25s ease 0ms;
+  -o-transition: all 0.25s ease 0ms;
+  transition: all 0.25s ease 0ms;
+}
+.main-footer a:hover {
+  color: #bbebe9;
+
+}
